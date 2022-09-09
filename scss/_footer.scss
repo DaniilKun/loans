@@ -1,0 +1,40 @@
+footer{
+    background: #f6f7f8;
+    height: 111px;
+}
+
+.footer {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 30px;
+  
+
+  &__num {
+    
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 22px;
+    color: #878b92;
+  }
+
+  &__undernum {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #878b92;
+  }
+
+  &__info {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #878b92;
+  }
+}

@@ -1,0 +1,171 @@
+.quiz {
+  margin-top: 70px;
+
+  &__info {
+    display: flex;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    margin-right: 30px;
+    max-width: 540px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+  }
+  &__result {
+    padding: 30px;
+    background: #f6f7f8;
+    border-radius: 20px;
+
+    h1 {
+      font-family: "Avenir Next Cyr";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 31px;
+      color: #878b92;
+    }
+
+    h2 {
+      font-family: "Avenir Next Cyr";
+      font-style: normal;
+      font-weight: 450;
+      font-size: 18px;
+      line-height: 22px;
+      color: #333333;
+    }
+  }
+
+  &__test {
+    margin-bottom: 20px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 31px;
+    color: #878b92;
+  }
+
+  &__answer {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 40px;
+    color: #333333;
+  }
+
+  &__block {
+    margin-bottom: 30px;
+  }
+
+  &__checkbox span {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__checkbox input {
+    display: none;
+  }
+
+  &__checkbox span::before {
+    content: "";
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 26px;
+    height: 26px;
+    background-color: #eaecee;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  &__checkbox span::after {
+    content: "";
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50;
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border: #ffdd2d 3px solid;
+    border-radius: 50%;
+  }
+
+  &__checkbox input:checked + span::after {
+    display: block;
+  }
+
+  &__checkbox input:focus + span::after {
+    display: block;
+  }
+
+  &__ram {
+    align-items: center;
+
+    margin-bottom: 20px;
+    width: 540px;
+    height: 50px;
+    border: 1px solid #eaecee;
+    border-radius: 6px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #333333;
+  }
+
+  button {
+    width: 540px;
+    height: 50px;
+    background: #ffdd2d;
+    border-radius: 6px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+
+  &__underbut {
+    width: 540px;
+    height: 30px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 125.91%;
+    text-align: center;
+    color: #878b92;
+    margin-bottom: 20px;
+
+    a{
+      color: #ffdd2d;
+    }
+  }
+
+  &__img{
+    margin-left: 30px;
+    margin-bottom: 23px;
+  }
+
+  &__img1{
+    margin-left: 113px;
+      }
+  &__img2{
+    margin-left: 34px;
+    margin-bottom: 70px;
+      }
+}

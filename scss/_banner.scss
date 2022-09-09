@@ -1,0 +1,68 @@
+.banner {
+  background-image: url(../img/MaskGroup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1920px;
+  max-height: 628px;
+  margin:  auto;
+   
+
+  &__title {
+    padding-top: 100px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+  }
+
+  &__subtitle {
+    margin-top: 10px;
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #333333;
+  }
+
+  &__cards {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 770px;
+
+    &__hands {
+      margin-right: 30px;
+      padding: 20px;
+      background: #eaecee;
+      border-radius: 10px;
+    }
+
+    &__house {
+      padding: 20px;
+
+      background: #eaecee;
+      border-radius: 10px;
+    }
+
+    &__page {
+      margin-top: 30px;
+      padding: 20px;
+      background: #eaecee;
+      border-radius: 10px;
+      margin-bottom: 100px;
+    }
+
+    &__txt {
+      margin-top: 10px;
+      font-family: "Avenir Next Cyr";
+      font-style: normal;
+      font-weight: 450;
+      font-size: 18px;
+      line-height: 22px;
+      color: #333333;
+    }
+  }
+}

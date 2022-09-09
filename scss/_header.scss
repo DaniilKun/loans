@@ -1,0 +1,55 @@
+header {
+  height: 63px;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+ .header {
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+   
+
+  &__logo {
+    display: flex;
+    img{
+        margin-right: 15px;
+        height:36px;
+    }
+  }
+
+  &__txt {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #878b92;
+
+
+  }
+
+  &__number {
+    font-family: "Avenir Next Cyr";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #333333;
+  }
+
+  &__undernumber{font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    color: #878B92;}
+}   
+}
+
+
